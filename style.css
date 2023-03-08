@@ -1,0 +1,27 @@
+body{
+    background-color:plum;
+    font-family: Lucida;
+    font-size: 25px;
+}
+.btn{
+    background-color: violet;
+    color:white;
+}
+canvas{
+    animation-name:example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    top: 240px;
+}
+@keyframes example{
+    from{box-shadow: 1px 1px 38px purple;}
+    to{box-shadow: 1px 1px 38px whitesmoke;}
+}
+.copy_right_footer{
+    background-color: palevioletred;
+    color:black;
+    font-family: monospace;
+    font-size: 15px;
+    position: fixed;
+    bottom: 0;
+}
